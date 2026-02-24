@@ -58,7 +58,7 @@
 
 ## 💡 4. 주요 학습 내용 (Features)
 
-- [나이아가라 학습 노트 보기]([언리얼 공부/Unreal/일일 공부/1-UE5 C  (24.06.25.~24.08.03.)/merged copy.md])
+- [나이아가라 학습 노트 보기](https://github.com/KINGWONWOO/obsidian/blob/c01251f59885cd1a43de5cb84ea0f8255d3bb616/%EC%96%B8%EB%A6%AC%EC%96%BC%20%EA%B3%B5%EB%B6%80/Unreal/%EC%9D%BC%EC%9D%BC%20%EA%B3%B5%EB%B6%80/1-UE5%20C%20%20(24.06.25.~24.08.03.)/merged%20copy.md)
 
 ---
 
