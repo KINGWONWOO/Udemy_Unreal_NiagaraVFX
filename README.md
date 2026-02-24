@@ -24,14 +24,41 @@
 ---
 ## 🎥 2. 실습 영상 (Practice Video)
 
-> *아래 이미지를 클릭하면 영상을 시청할 수 있습니다. (YouTube)*
+> *고화질 시청을 원하시면 유튜브 링크를 클릭해주세요 (YouTube)*
 
 ### Udemy 실습 영상
 
-[![Gameplay Video](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
+[YouTube : Udemy 실습 영상> **"실시간 이펙트의 원리를 이해하고 직접 구현하다."**  
+>
+> Udemy 강의 **'Unreal Engine 5 : 강의 하나로 Niagara VFX 완벽 마스터하기!'**를 기반으로 Unreal Engine Niagara VFX 시스템을 학습하며 제작한 실습 프로젝트입니다.
+
+---
+
+## 📋 1. 프로젝트 개요 (Overview)
+
+* **프로젝트명:** Udemy Unreal Niagara VFX Study  
+* **유형:** Unreal Engine 기반 실시간 VFX 학습 프로젝트  
+* **개발 인원:** 1인 개발  
+* **개발 목적:** Niagara 시스템의 구조 및 모듈 동작 원리 학습  
+* **주요 특징:**  
+    * Unreal Engine의 **Niagara System**을 활용한 파티클 이펙트 제작  
+    * Emitter / System 구조 이해 및 커스터마이징  
+    * Material과 연계한 실시간 시각 효과 구현  
+    * 실습 중심의 단계별 VFX 제작
+    * 강의 복습을 위한 개인 작품 제작
+
+---
+## 🎥 2. 실습 영상 (Practice Video)
+
+> *고화질 시청을 원하시면 유튜브 링크를 클릭해주세요 (YouTube)*
+
+### Udemy 실습 영상
+
+[YouTube : Udemy 실습 영상](https://youtu.be/xsyFOx90I90?si=NQGeRHLeelcNYJ8m))
+
+https://github.com/user-attachments/assets/67f7377c-fd58-4423-8935-806505fe5332
 
 
-https://github.com/user-attachments/assets/9d4116e5-b37a-4e40-9986-6be767b5f272
 
 
 ### 복습 Nier 영상
