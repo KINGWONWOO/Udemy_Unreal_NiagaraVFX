@@ -30,6 +30,10 @@
 
 [![Gameplay Video](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
 
+
+https://github.com/user-attachments/assets/9d4116e5-b37a-4e40-9986-6be767b5f272
+
+
 ### 복습 Nier 영상
 *   Udemy에서 배운 내용을 통해 자체적으로 제작한 영상입니다. Level 내 Mesh 들은 Blender를 통해 자체 제작했습니다.
   
@@ -92,5 +96,4 @@
 
 ---
 
-**Contact:** (Your Name / Email)  
-**GitHub:** https://github.com/KINGWONWOO/Udemy_Unreal_NiagaraVFX  
+**Contact:** (강원우 / king_wonwoo@naver.com)  
