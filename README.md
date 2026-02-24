@@ -51,7 +51,7 @@ https://github.com/user-attachments/assets/3899c8ec-9880-4aea-a706-4369c895f197
 
 ### Engine & Language
 *   **Unreal Engine 5.6**: Core Engine (최신 기능 활용)
-*   **C++ & Blueprints**: 파티클 전용 머티리얼 제작 / Niagara Spawn 설정
+*   **Blueprints**: 파티클 전용 머티리얼 제작 / Niagara Spawn 설정
 *   **Camera Sequencer**: 몰입감 있는 시네마틱 카메라 연출
 
 ### Modeling
@@ -91,7 +91,7 @@ https://github.com/user-attachments/assets/3899c8ec-9880-4aea-a706-4369c895f197
 
 ---
 
-## 📚 6. 향후 공부 방향 (Future Study Plan)
+## 📚 6. 공부 확장 방향(Future Study Plan)
 
 * GPU Particle Simulation 심화 학습  
 * 이벤트(Event Handler) 기반 파티클 시스템 구조 이해  
