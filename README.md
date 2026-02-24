@@ -1,6 +1,6 @@
 # 🎇 Unreal Niagara VFX Study Project
 
-![Verification](Udemy_Niagara.jpg)
+<img src="Udemy_Niagara.jpg" width="225" height="400" style="aspect-ratio: 9/16; object-fit: cover;" alt="Verification">
 
 > **"실시간 이펙트의 원리를 이해하고 직접 구현하다."**  
 >
