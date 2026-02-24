@@ -29,17 +29,21 @@
 
 ### Udemy 실습 영상
 
-[YouTube : Udemy 실습 영상](https://youtu.be/xsyFOx90I90?si=NQGeRHLeelcNYJ8m))
+[YouTube : Udemy 실습 영상](https://youtu.be/xsyFOx90I90?si=NQGeRHLeelcNYJ8m)
 
-https://github.com/user-attachments/assets/67f7377c-fd58-4423-8935-806505fe5332
 
+https://github.com/user-attachments/assets/94a4fe2e-a478-4fb3-8f68-187adfe2173b
 
 
 
 ### 복습 Nier 영상
 *   Udemy에서 배운 내용을 통해 자체적으로 제작한 영상입니다. Level 내 Mesh 들은 Blender를 통해 자체 제작했습니다.
   
-[![Gameplay Video](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
+[YouTube : Nier](https://youtu.be/FxfLJo7ZLfc?si=RFETOVWBMa0q3dNW)
+
+
+https://github.com/user-attachments/assets/3899c8ec-9880-4aea-a706-4369c895f197
+
 
 ---
 
