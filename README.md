@@ -1,6 +1,6 @@
 # 🎇 Unreal Niagara VFX Study Project
 
-![Verification](Doc/Images/Udemy_Niagara.png)
+![Verification](Udemy_Niagara.png)
 
 > **"실시간 이펙트의 원리를 이해하고 직접 구현하다."**  
 >
