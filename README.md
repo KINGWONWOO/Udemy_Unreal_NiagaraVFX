@@ -58,7 +58,7 @@
 
 ## 💡 4. 주요 학습 내용 (Features)
 
-- [나이아가라 학습 노트 보기]([github.com/KINGWONWOO/obsidian/blob/main/언리얼%20공부/Unreal/일일%20공부/4-UE5%20Niagara%20VFX(24.11.11~/merged.md])
+- [나이아가라 학습 노트 보기]([github.com/KINGWONWOO/obsidian/blob/main/언리얼%20공부/Unreal/일일%20공부/4-UE5%20Niagara%20VFX(24.11.11~/merged%20copy.md])
 
 ---
 
