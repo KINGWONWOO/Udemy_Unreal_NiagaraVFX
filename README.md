@@ -75,30 +75,48 @@ https://github.com/user-attachments/assets/3899c8ec-9880-4aea-a706-4369c895f197
 
 ## 🚀 5. 트러블 슈팅 (Troubleshooting)
 
-### 이슈 1: 파티클이 화면에 보이지 않는 문제
-* Spawn Rate가 0으로 설정되었는지 확인
-* Sprite Renderer가 추가되어 있는지 확인
-* Material이 정상적으로 연결되었는지 확인
+### 이슈 1: 멀티플레이어 환경에서 Steam 연동 및 테스트 불가
+* 문제: Steam Online Subsystem 설정 후에도 개발 환경에서 세션 검색 및 로그인이 정상적으로 작동하지 않음.
+* 해결: SteamAppId 확인 및 Steam Sandbox(AppID 480) 설정을 통해 개발용 샌드박스 환경에서 테스트를 진행하여 해결.
 
-### 이슈 2: 파티클이 즉시 사라지는 현상
-* Lifetime 값이 0 또는 너무 작게 설정되었는지 확인
-* Random Range 설정으로 자연스러운 지속 시간 부여
+### 이슈 2: 작동하던 C++ 프로젝트의 갑작스러운 컴파일 오류
+* 문제: 코드 변경이 없었음에도 불구하고 엔진 업데이트나 환경 변화로 인해 프로젝트가 열리지 않거나 컴파일 에러 발생.
+* 해결:
+     - 프로젝트 폴더 내 Binaries, Intermediate, Saved 폴더를 삭제한 후, .uproject 우클릭 - Generate Visual Studio project files를 통해 프로젝트 파일을 재생성하여 종속성 꼬임 문제를 해결
+     - 종속성 확인 및 SDK 재설치
+     - 코드 재 검사
+     - .uproject 메모장 편집 후 오타 확인
+     - content 파일 중 한글로 된 파일/경로 확인
 
-### 이슈 3: 성능 저하 문제
-* Spawn Rate 최적화
-* LOD 설정 적용
-* GPU Simulation과 CPU Simulation 구분 사용
+### 이슈 3: AI 캐릭터의 회전 및 이동의 부자연스러움
+* 문제: AI가 방향을 전환할 때 순간적으로 끊기거나 부자연스럽게 회전하는 현상.
+* 해결: CharacterMovementComponent 내의 Use Controller Desired Rotation 및 Orient Rotation to Movement 옵션을 조정하고, Rotation Rate 값을 세밀하게 설정하여 매끄러운 회전 보간 구현.
+
+### 이슈 4: 엔진 버전 업데이트에 따른 입력 시스템 호환성 문제 (UE 5.1+)
+* 문제: 기존 Legacy Input 방식이 최신 버전에서 제대로 작동하지 않거나 경고 발생.
+* 해결: 최신 표준인 Enhanced Input System으로 마이그레이션. Input Action과 Input Mapping Context를 정의하여 유연한 입력 처리 구조로 개선.
+
+### 이슈 5: Line Trace(Ray Tracing) 기반 물체 상호작용 시 불안정성
+* 문제: 물체를 잡고 이동할 때 물체가 심하게 떨리거나 위치가 고정되지 않는 현상.
+* 해결: 물체를 잡는 지점(Physics Handle)의 위치 계산 방식을 Tick에서 보간 처리하고, 잡힌 물체의 Collision Response를 조정하여 캐릭터와의 물리 충돌 간섭을 제거함으로써 안정화.
+
+### 이슈 6: VS Code Include 인식 불가 및 라이브 코딩 오류 (2024.06.27)
+* 문제: 프로젝트 내 모든 #include 경로를 찾지 못하는 에러 발생 및 라이브 코딩 기능 마비.
+* 해결: .uproject 파일 우클릭 후 Generate Visual Studio project files를 실행하여 프로젝트 파일을 갱신하고, 에디터 내에서 Refresh Visual Studio Code Project를 통해 경로 재설정.
+
+### 이슈 7: 에디터 내 VS Code 실행 불가 (Unable to open solution) (2024.06.27)
+* 문제: 언리얼 에디터에서 소스 코드 열기 시 솔루션을 열 수 없다는 오류 발생.
+* 해결: 프로젝트 및 에디터 실행 시 관리자 권한을 부여하여 파일 접근 권한 문제 해결.
+
 
 ---
 
 ## 📚 6. 공부 확장 방향(Future Study Plan)
 
-* GPU Particle Simulation 심화 학습  
+* 실제 게임 제작해보기.(Noob에 적용)
 * 이벤트(Event Handler) 기반 파티클 시스템 구조 이해  
-* Collision 및 Physics 연동 심화 학습  
-* Blueprint 및 C++과 Niagara 간 데이터 바인딩 구조 학습  
-* 실제 게임 이펙트(폭발, 스킬 이펙트, 환경 효과) 분석 및 재구현  
-* 최적화 전략 및 퍼포먼스 프로파일링 학습  
+* Dedicated Server 및 Listen Server 배포 및 관리 학습  
+* 더욱 복잡한 AI Behavior Tree 및 환경 쿼리 시스템(EQS) 심화 학습, 다양한 상호작용 추가 
 
 ---
 
